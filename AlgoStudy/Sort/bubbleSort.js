@@ -1,4 +1,4 @@
-// BubbleSort n^2 //
+// BubbleSort n^2 Quadratic time // Every pair of adjacent values is compared
 
 // From i = 0 to < arr.length
     // From j = 0 to (arr.length -i -1)
