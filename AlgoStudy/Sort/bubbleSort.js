@@ -1,4 +1,5 @@
-// BubbleSort n^2 Quadratic time // Every pair of adjacent values is compared
+// BubbleSort n^2 Quadratic time // Every pair of adjacent values is compared, and then 
+// the two values swap positions if the first value is greater than the second 
 
 // From i = 0 to < arr.length
     // From j = 0 to (arr.length -i -1)
