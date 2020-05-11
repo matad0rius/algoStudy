@@ -2,7 +2,7 @@
 
 // Recursion Fib //
 
-function mergeSort(arr) {
+function merge(arr) {
     if (arr.length === 1) {
         return arr;
     }
@@ -11,7 +11,7 @@ function mergeSort(arr) {
     const left = arr.slice(0, center);
     const right = arr.slice(center);
 
-    return mergeSort(mergeSort(left), mergeSort(right));
+    return merge(mergeSort(left), mergeSort(right));
 }
 
 // Create 'results' arr
@@ -35,3 +35,6 @@ function mergeSort(left, right) {
 
     return [...results, ...left, ...right];
 }
+
+module.exports = { mergeSort, merge };
+
