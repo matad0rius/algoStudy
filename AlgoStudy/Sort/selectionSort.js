@@ -30,3 +30,6 @@ function selectionSort(arr) {
 
     return arr;
 }
+
+module.exports = { selectionSort }; 
+                 
