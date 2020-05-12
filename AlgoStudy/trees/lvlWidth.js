@@ -20,7 +20,7 @@ function levelWidth(root) {
         if (node === 's') {
             counters.push(0); // starts proceessing a new row/fila
             arr.push('s');
-        }   else {
+        } else {
             arr.push(...node.children);
             counter[counters.length -1]++; // Define the last ele +1 --> current lvl of the tree
         }
