@@ -22,7 +22,7 @@ function levelWidth(root) {
             arr.push('s');
         } else {
             arr.push(...node.children);
-            counter[counters.length -1]++; // Define the last ele +1 --> current lvl of the tree
+            counters[counters.length -1]++; // Define the last ele +1 --> current lvl of the tree
         }
     }
 
