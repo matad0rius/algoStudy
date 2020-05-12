@@ -27,7 +27,7 @@ class Node {
 
     remove(data) {
        this.children = this.children.filter(node => { // Filter does not modify the arr
-            return node.data !== data; // Return true for any ele is not !== to this ele
+            return node.data !== data // Return true for any ele is not !== to this ele
         });
     }
 }
