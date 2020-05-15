@@ -13,6 +13,8 @@ function capitalize(str) {
     return word.join('');
 }
 
+//2nd
+
 function capitalize(str) {
     let results = str[0].toUpperCase;
 
