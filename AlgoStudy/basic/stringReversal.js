@@ -24,4 +24,4 @@ function reverse(str) {
     }, '');
 }
 
-module.export = reverse
+module.exports = reverse
