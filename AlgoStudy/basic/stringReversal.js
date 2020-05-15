@@ -16,7 +16,7 @@ function reverse(str) {
     return reversed;
 }
 
-//3th
+//3rd
 
 function reverse(str) {
     return str.split('').str.reduce((reversed, char) => {
