@@ -22,6 +22,14 @@ function anagrams(stringA, stringB) {
     return true;
 }
 
+function buildCharMap(str) {
+  const charMap = {};
+  for (let char of str.replace(/[^\w]/g,'')) {
+    charMap[char] = charMap[char] + 1 || 1;
+  }
+  return charMap;
+}
+
 // 2nd
 
 function anagrams(stringA, stringB) {
