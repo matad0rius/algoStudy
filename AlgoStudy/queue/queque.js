@@ -10,6 +10,8 @@
 
 // If you try to remove and empty ele from a queque you will get undefines
 
+// FIFO
+
 function Queue {
     constructor() {
         this.data = [];
@@ -28,4 +30,4 @@ function Queue {
     }
 }
 
-module.exports = weave;
+module.exports = Queue;
