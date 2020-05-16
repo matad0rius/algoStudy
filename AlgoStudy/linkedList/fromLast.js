@@ -6,11 +6,11 @@ function fromLast(list, n) {
     let fast = list.getFisrt();
 
     while (n > 0) {
-        fast = fast.next;
+        fast = fast.next; // move fast;
         n--;
     }
 
-    while (fast.next) {
+    while (fast.next) { // if fast does not exist slow is n ele behind
         slow = slow.next;
         fast = fast.next;
     }
