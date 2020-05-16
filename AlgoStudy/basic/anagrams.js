@@ -6,7 +6,7 @@
 // 1st
 
 function anagrams(stringA, stringB) {
-    cont aCharMap = buildCharMap(stringA);
+    const aCharMap = buildCharMap(stringA);
     const bCharMap = buildCharMap(stringB);
 
     if (Object.keys(aCharMap).length !== Object.keys(bCharMap).length) {
