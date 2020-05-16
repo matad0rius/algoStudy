@@ -10,7 +10,7 @@ function capitalize(str) {
         words.push(word[0].toUpperCase() + word.slice(1));
     }
 
-    return word.join('');
+    return words.join('');
 }
 
 //2nd
