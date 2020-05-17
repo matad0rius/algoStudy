@@ -13,3 +13,5 @@ Stack (array)	O(1)	      -	      -	      O(1)	      Insert/delete is last-in, fi
 Queue (naïve)	O(1)	      -	      -	      O(n)        Remove (Array.shift) is O(n)
 Queue (array	O(1)	      -	      -	      O(1)        Worst time insert is O(n). However amortized is O(1)
 Queue (list)	O(1)	      -	      -	      O(1)	      Using Doubly Linked List with reference to the last element.
+
+(https://octodex.github.com/images/yaktocat.png)
