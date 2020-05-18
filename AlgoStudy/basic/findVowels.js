@@ -6,7 +6,7 @@ function vowels(str) {
 
     for (let char of str.toLowerCase()) {
         if (checker.includes(char)) {
-            counter++
+            count++
         }
     }
 
