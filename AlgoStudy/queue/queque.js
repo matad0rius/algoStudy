@@ -31,3 +31,26 @@ function Queue {
 }
 
 module.exports = Queue;
+
+
+//// Linked list better performance /////
+
+const LinkedList = require(
+
+class Queue {
+    constructor() {
+      this.input = new LinkedList();
+    }
+  
+    add(element) {
+      this.input.addFirst(element);
+    }
+  
+    remove() {
+      return this.input.removeLast();
+    }
+  
+    get size() {
+      return this.input.size;
+    }
+  }
