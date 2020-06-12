@@ -51,3 +51,24 @@ values(){
   }
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#sparseArray
+
+//  _loop(callback) {
+//         const elements = [];
+//         this.keyMap.forEach(el => el.forEach(callback, elements));
+        
+//         return elements;
+//     }
+ 
+//     keys() {
+//         return this._loop(function(value) { this.push(value[0]) });
+//     }
+ 
+//     values() {
+//         return this._loop(function(value) { this.push(value[1]) });
+//     }
+ 
+//     entries() {
+//         return this._loop(function(value) { this.push(value) });
+//     }
+// forEach is a perfect function in situation with sparse arrays because it ignores empty values
