@@ -1,3 +1,6 @@
+// Theory explanation
+// https://programming.guide/prime-numbers-in-hash-tables.html
+
 function hash(key, arrayLen) {
   let total = 0;
   let WEIRD_PRIME = 31;
