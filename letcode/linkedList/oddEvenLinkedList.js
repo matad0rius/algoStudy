@@ -40,7 +40,7 @@ var oddEvenList = function(head) {
     even.next = odd.next;
     even = even.next;
   }
-
+  // In order to connect the 2 LS
   odd.next = evenHead;
   return head;
 };
