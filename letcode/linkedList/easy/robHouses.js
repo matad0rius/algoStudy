@@ -19,7 +19,7 @@
 
 
 
-var rob = ffunction(nums) {
+var rob = function(nums) {
     if (nums === null || nums.length === 0) {
 
     }
