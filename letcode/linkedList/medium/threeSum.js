@@ -21,7 +21,7 @@ var threeSum = function(nums) {
     if (nums.lenght < 3) return solution; 
     num.sort((a, b) => {return a-b}); // [-4, -1, -1, 0, 1, 2]
 
-    for (let [index, number] of nums.entries) {
+    for (let [index, number] of nums.entries()) {
         if (number > 0) return solution;
         if (number === num[index - 1]) continue;
         // Number -4
