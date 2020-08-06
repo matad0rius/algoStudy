@@ -45,3 +45,20 @@ var maxProfit = function(prices) {
 
     return profit;
 };
+
+// only one transaction
+
+var maxProfit = function(prices) {
+    let minBuyPrice = Infinity; // cuz we want to set up to a number bigger than the final price
+    let maxProfit = 0;
+
+    for (let price of prices) {
+        if (price < minBuyPrice) {
+            minBuyPrice = price;
+        } else if (price - minBuyPrice > maxProfit) {
+            maxProfit = price - minBuyPrice;
+        }
+    }
+
+    return maxProfit;
+};
